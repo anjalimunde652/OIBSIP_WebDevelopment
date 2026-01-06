@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Temperature Converter</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+  <div class="card">
+    <h1>🌡 Temperature Converter</h1>
+    <p>Convert temperature easily between units</p>
+
+    <input type="number" id="tempInput" placeholder="Enter value">
+
+    <select id="unit">
+      <option value="c">Celsius (°C)</option>
+      <option value="f">Fahrenheit (°F)</option>
+      <option value="k">Kelvin (K)</option>
+    </select>
+
+    <button onclick="convertTemp()">Convert</button>
+
+    <div class="result" id="result">
+      Result will appear here ✨
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
